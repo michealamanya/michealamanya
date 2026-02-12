@@ -15,6 +15,14 @@
   
 </div>
 
+<div align="center">
+
+### 🔎 **QUICK NAVIGATION**
+
+[English Profile](./README_EN.md) • [Featured Projects](./PROJECTS.md) • [Collaboration Guide](./COLLABORATORS.md) • [Blog Metadata](./BLOG_POSTS.json)
+
+</div>
+
 ---
 
 <!-- 🎯 MODERN PROFILE CARDS SECTION -->
@@ -292,11 +300,11 @@ mindmap
 *Insights and knowledge from my tech journey*
 
 <!-- BLOG-POST-LIST:START -->
-- 🤖 [Building AI Applications for African Markets](#)
-- 📱 [Flutter Best Practices for Production Apps](#)
-- 🧠 [Understanding Deep Learning: A Practical Guide](#)
-- 🌾 [Tech Innovation in Agriculture: My Journey](#)
-- 💡 [From Student to AI Engineer: Lessons Learned](#)
+- 🤖 [Building AI Applications for African Markets](https://medium.com/@amanyamicheal/building-ai-applications-african-markets)
+- 📱 [Flutter Best Practices for Production Apps](https://medium.com/@amanyamicheal/flutter-best-practices-production)
+- 🧠 [Understanding Deep Learning: A Practical Guide](https://medium.com/@amanyamicheal/understanding-deep-learning-guide)
+- 🌾 [Tech Innovation in Agriculture: My Journey](https://medium.com/@amanyamicheal/tech-innovation-agriculture-journey)
+- 💡 [From Student to AI Engineer: Lessons Learned](https://medium.com/@amanyamicheal/student-to-ai-engineer-lessons)
 <!-- BLOG-POST-LIST:END -->
 
 </div>
@@ -382,7 +390,7 @@ mindmap
 
 <br/>
 
-💌 **DM me on [LinkedIn](https://www.linkedin.com/in/amanya-micheal-778a9234a) or email at amanyamicheal770@gmail.com**
+💌 **DM me on [LinkedIn](https://www.linkedin.com/in/amanya-micheal-778a9234a) or email at amanyamicheal@gmail.com**
 
 </div>
 
