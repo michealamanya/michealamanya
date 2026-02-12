@@ -6,6 +6,7 @@
 
 ## Quick Links
 
+- 🌐 GitHub Pages site: [michealamanya.github.io](https://michealamanya.github.io)
 - 🌟 Full visual profile: [README.md](./README.md)
 - 🚀 Featured projects: [PROJECTS.md](./PROJECTS.md)
 - 🤝 Collaboration details: [COLLABORATORS.md](./COLLABORATORS.md)
