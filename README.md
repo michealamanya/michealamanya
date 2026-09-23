@@ -1,433 +1,84 @@
-<!-- 🌍 Ultra-Modern Animated GitHub Profile -->
-<!-- 🎨 HERO BANNER WITH CUSTOM GRADIENT -->
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,50:764ba2,100:f093fb&height=280&section=header&text=AMANYA%20MICHEAL&fontSize=70&fontColor=fff&animation=twinkling&fontAlignY=35&desc=AI%20Engineer%20%7C%20Innovator%20%7C%20Problem%20Solver&descSize=20&descAlignY=55" />
-</div>
+# Amanya Micheal
 
-<!-- 🎭 DYNAMIC TYPING ANIMATION (FIXED) -->
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=28&duration=3000&pause=1000&color=667EEA&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=100&lines=💻+Building+the+Future+with+AI+%26+Code;🚀+Transforming+Ideas+into+Impact;🌍+Innovating+for+Africa's+Tomorrow" alt="Dynamic Typing" />
-</div>
+## AI Engineer and Mobile Developer
 
-<div align="center">
-  
-  ✨ **Welcome to my digital space** ✨
-  
-</div>
+I build practical technology for people, communities, and African markets. My work combines machine learning, mobile development, and open-source collaboration.
 
-<div align="center">
+[Portfolio](https://michealamanya.github.io) | [GitHub](https://github.com/michealamanya) | [LinkedIn](https://linkedin.com/in/amanya-micheal-778a9234a) | [Email](mailto:amanyamicheal@gmail.com)
 
-### 🔎 **QUICK NAVIGATION**
+## Focus
 
-[English Profile](./README_EN.md) • [Featured Projects](./PROJECTS.md) • [Collaboration Guide](./COLLABORATORS.md) • [Blog Metadata](./BLOG_POSTS.json)
+- Deep learning, NLP, computer vision, and edge AI
+- Flutter and cross-platform mobile applications
+- Django, Firebase, MySQL, and practical web systems
+- Technology for agriculture, healthcare, education, and social good
 
-</div>
+## Tech Stack
 
----
+**Languages:** Python, Java, HTML
 
-<!-- 🎯 MODERN PROFILE CARDS SECTION -->
-<div align="center">
+**AI and data:** TensorFlow, scikit-learn, NLP
 
-## 🌟 **WHO AM I?**
+**Mobile and web:** Flutter, Django, Firebase
 
-</div>
+**Tools and databases:** Git, GitHub, VS Code, MySQL
 
-<table align="center" width="100%">
-<tr>
-<td width="50%" valign="top">
+## Selected Projects
 
-### 👨‍💻 **The Developer**
+### AgroConnect Mobile
 
-```python
-class AmanyaMicheal:
-    def __init__(self):
-        self.name = "Amanya Micheal"
-        self.role = "AI Engineer & Mobile Dev"
-        self.location = "Uganda 🇺🇬"
-        self.education = "MUST - Computer Science"
-        self.languages = ["Python", "Java", "HTML"]
-        
-    def current_focus(self):
-        return [
-            "Deep Learning & Neural Networks",
-            "Mobile-First AI Applications",
-            "African Tech Solutions"
-        ]
-    
-    def life_motto(self):
-        return "Code with purpose, build with passion! 🚀"
-```
+A smart agriculture app for real-time market prices and AI-powered crop recommendations.
 
-</td>
-<td width="50%" valign="top">
+[View repository](https://github.com/michealamanya/agroconnect)
 
-### 🎯 **Quick Facts**
+`Flutter` `Firebase` `Python` `Machine Learning`
 
-| 📊 | Detail |
-|---|---|
-| 🎓 | Computer Science @ MUST |
-| 💼 | AI, Mobile Dev, IoT |
-| 🌱 | Deep Learning, TensorFlow, Edge AI |
-| 💡 | Innovation, Problem-Solving, Tech for Good |
-| 🎵 | Coding, Learning, Building |
-| ☕ | Coffee + Code + Curiosity |
-| 🌍 | Tech Solutions for Africa |
-| ⚡ | I debug with optimism! |
+### Smart Hospital System
 
-</td>
-</tr>
-</table>
+An AI-enhanced healthcare management system for patient records, monitoring, analytics, and diagnosis support.
 
----
+[View repository](https://github.com/michealamanya/hospital-system)
 
-<!-- 💼 TECH STACK - SIMPLIFIED -->
-<div align="center">
+`Django` `React` `TensorFlow` `MySQL`
 
-## ⚡ **TECH STACK**
+### Mental Health Chatbot
 
-### 🔥 **Languages**
+A privacy-first conversational companion exploring natural language understanding and emotion detection.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![HTML](https://img.shields.io/badge/HTML-E34C26?style=for-the-badge&logo=html5&logoColor=white)
+[View repository](https://github.com/michealamanya/mental-health-bot)
 
-### 🤖 **AI & ML**
+`Python` `NLP` `TensorFlow` `Flask`
 
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Scikit-Learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+### Student Management Pro
 
-### 📱 **Mobile & Web**
+A campus management system for grade tracking, scheduling, and student-teacher collaboration.
 
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+[View repository](https://github.com/michealamanya/student-management)
 
-### 🗄️ **Database & Cloud**
+`Java` `MySQL` `JavaFX`
 
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+## Latest Writing
 
-### 🛠️ **Tools**
+- [Building AI Applications for African Markets](https://medium.com/@amanyamicheal/building-ai-applications-african-markets)
+- [Flutter Best Practices for Production Apps](https://medium.com/@amanyamicheal/flutter-best-practices-production)
+- [Understanding Deep Learning: A Practical Guide](https://medium.com/@amanyamicheal/understanding-deep-learning-guide)
+- [Tech Innovation in Agriculture: My Journey](https://medium.com/@amanyamicheal/tech-innovation-agriculture-journey)
 
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-
-</div>
-
----
-
-<!-- 🚀 FEATURED PROJECTS SECTION -->
-<div align="center">
-
-## 🚀 **FEATURED PROJECTS**
-
-*Innovative solutions built with passion and precision*
-
-</div>
-
-<table align="center" width="100%">
-<tr>
-<td width="50%" valign="top">
-
-### 🌾 **AgroConnect Mobile**
-#### Smart Agriculture Solution
-
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=michealamanya&repo=agroconnect&theme=radical&hide_border=true)](https://github.com/michealamanya/agroconnect)
-
-<div align="left">
-
-- 🎯 Real-time market prices  
-- 📱 Flutter & Firebase  
-- 🤖 AI crop recommendations  
-- 📊 Advanced analytics
-
-</div>
-
-**Tech Stack:** `Flutter` `Firebase` `Python` `ML`
-
-</td>
-<td width="50%" valign="top">
-
-### 🏥 **Smart Hospital System**
-#### AI Healthcare Management
-
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=michealamanya&repo=hospital-system&theme=radical&hide_border=true)](https://github.com/michealamanya/hospital-system)
-
-<div align="left">
-
-- ⚕️ Patient management  
-- 🤖 AI diagnosis support  
-- 📈 Health monitoring  
-- 🔐 Secure encryption
-
-</div>
-
-**Tech Stack:** `Django` `TensorFlow` `MySQL` `React`
-
-</td>
-</tr>
-</table>
-
----
-
-<!-- 📊 ADVANCED GITHUB STATISTICS -->
-<div align="center">
-
-## 📊 **GITHUB ANALYTICS**
-
-*My contributions and coding journey*
-
-</div>
-
-<p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=michealamanya&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=667eea&icon_color=f093fb&text_color=c9d1d9&count_private=true&include_all_commits=true" alt="GitHub Stats" />
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=michealamanya&theme=radical&hide_border=true&background=0D1117&ring=667eea&fire=f093fb&currStreakLabel=667eea" alt="GitHub Streak" />
-</p>
-
-<p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=michealamanya&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=667eea&text_color=c9d1d9&langs_count=8" alt="Top Languages" />
-  <img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=michealamanya&theme=react-dark&hide_border=true&bg_color=0D1117&color=667eea&line=f093fb&point=ffffff" alt="Activity Graph" />
-</p>
-
----
-
-<!-- 🏆 ACHIEVEMENTS & TROPHIES -->
-<div align="center">
-
-## 🏆 **ACHIEVEMENTS & MILESTONES**
-
-*Celebrating my journey and accomplishments*
-
-<img src="https://github-profile-trophy.vercel.app/?username=michealamanya&theme=radical&no-frame=true&no-bg=true&margin-w=15&margin-h=15&column=7&row=1" alt="Trophies" />
-
-</div>
-
-<div align="center">
-
-### 📈 **Contribution Stats**
-
-![](https://github-contributor-stats.vercel.app/api?username=michealamanya&limit=5&theme=radical&combine_all_yearly_contributions=true&hide_border=true)
-
-</div>
-
----
-
-<!-- 🎯 CURRENT FOCUS & ROADMAP -->
-<div align="center">
-
-## 🎯 **CURRENT FOCUS & 2025 ROADMAP**
-
-*My strategic vision for growth and innovation*
-
-</div>
-
-```mermaid
-mindmap
-  root((Amanya 2025))
-    AI Engineering
-      Deep Learning Mastery
-      Neural Networks
-      Edge AI Development
-      Computer Vision
-    Mobile Development
-      Flutter Excellence
-      Cross-Platform Apps
-      Firebase Integration
-      UI/UX Design
-    IoT & Embedded
-      Arduino Projects
-      Raspberry Pi
-      Smart Sensors
-      Home Automation
-    Open Source
-      Contributing Daily
-      Building Libraries
-      Community Impact
-      Tech for Africa
-```
-
----
-
-<!-- 💡 SKILLS PROGRESS BARS -->
-<div align="center">
-
-## 💡 **SKILL PROGRESSION**
-
-*Continuous learning and mastery*
-
-</div>
-
-| Skill | Progress |
-|---|---|
-| 🤖 Artificial Intelligence | ![AI](https://progress-bar.dev/85/?title=&width=300&color=667eea) |
-| 📱 Mobile Development (Flutter) | ![Mobile](https://progress-bar.dev/90/?title=&width=300&color=f093fb) |
-| 🌐 Web Development | ![Web](https://progress-bar.dev/80/?title=&width=300&color=764ba2) |
-| 🗄️ Database Management | ![DB](https://progress-bar.dev/85/?title=&width=300&color=667eea) |
-| ⚙️ IoT & Embedded Systems | ![IoT](https://progress-bar.dev/75/?title=&width=300&color=f093fb) |
-| ☁️ Cloud & DevOps | ![Cloud](https://progress-bar.dev/70/?title=&width=300&color=764ba2) |
-
----
-
-<!-- 🌐 SOCIAL LINKS WITH CUSTOM STYLING -->
-<div align="center">
-
-## 🌐 **LET'S CONNECT!**
-
-*Reach out and let's build something amazing together*
-
-<a href="mailto:amanyamicheal@gmail.com">
-  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-</a>
-<a href="https://linkedin.com/in/amanya-micheal-778a9234a">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-</a>
-<a href="https://x.com/amanyamicheal_a">
-  <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />
-</a>
-<a href="https://github.com/michealamanya">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-</a>
-
-</div>
-
----
-
-<!-- 📚 LATEST BLOG POSTS -->
-<div align="center">
-
-## 📚 **LATEST BLOG POSTS**
-
-*Insights and knowledge from my tech journey*
-
-<!-- BLOG-POST-LIST:START -->
-- 🤖 [Building AI Applications for African Markets](https://medium.com/@amanyamicheal/building-ai-applications-african-markets)
-- 📱 [Flutter Best Practices for Production Apps](https://medium.com/@amanyamicheal/flutter-best-practices-production)
-- 🧠 [Understanding Deep Learning: A Practical Guide](https://medium.com/@amanyamicheal/understanding-deep-learning-guide)
-- 🌾 [Tech Innovation in Agriculture: My Journey](https://medium.com/@amanyamicheal/tech-innovation-agriculture-journey)
-- 💡 [From Student to AI Engineer: Lessons Learned](https://medium.com/@amanyamicheal/student-to-ai-engineer-lessons)
-<!-- BLOG-POST-LIST:END -->
-
-</div>
-
----
-
-<!-- 🐍 CONTRIBUTION SNAKE (FIXED) -->
-<div align="center">
-
-## 🐍 **CONTRIBUTION ACTIVITY**
-
-*Watch me code - one commit at a time*
+## Contribution Activity
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/michealamanya/michealamanya/blob/output/github-contribution-grid-snake-dark.svg?raw=true">
   <source media="(prefers-color-scheme: light)" srcset="https://github.com/michealamanya/michealamanya/blob/output/github-contribution-grid-snake.svg?raw=true">
-  <img alt="github contribution grid snake animation" src="https://github.com/michealamanya/michealamanya/blob/output/github-contribution-grid-snake.svg?raw=true" />
+  <img alt="GitHub contribution snake animation" src="https://github.com/michealamanya/michealamanya/blob/output/github-contribution-grid-snake.svg?raw=true">
 </picture>
 
-</div>
+## Collaboration
 
----
+I am open to AI/ML, mobile, tech-for-good, and open-source collaborations.
 
-<!-- 📈 VISITOR COUNTER & STATS -->
-<div align="center">
+- [Collaboration guide](./COLLABORATORS.md)
+- [Featured projects](./PROJECTS.md)
+- [Blog metadata](./BLOG_POSTS.json)
+- [X](https://x.com/amanyamicheal_a)
 
-## 📈 **PROFILE INSIGHTS**
-
-<img src="https://komarev.com/ghpvc/?username=michealamanya&style=for-the-badge&color=blueviolet&label=PROFILE+VIEWS" alt="Profile Views" />
-
-![Followers](https://img.shields.io/github/followers/michealamanya?style=for-the-badge&color=667eea&labelColor=0D1117)
-![Stars](https://img.shields.io/github/stars/michealamanya?style=for-the-badge&color=f093fb&labelColor=0D1117)
-
-</div>
-
----
-
-<!-- 💭 INSPIRATIONAL QUOTE -->
-<div align="center">
-
-## 💭 **QUOTE OF THE DAY**
-
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Quote" />
-
-</div>
-
----
-
-<!-- 🎵 PERSONAL PHILOSOPHY -->
-<div align="center">
-
-## 🎵 **MY PHILOSOPHY**
-
-> *"Technology is not just about code, it's about creating solutions that matter.  
-> Every line I write is a step toward building a better future for Africa."*
-
-**— Amanya Micheal** ✨
-
----
-
-### ⭐ **Fun Facts About Me**
-
-| 🌅 | Early Bird | Best code is written at dawn |
-|---|---|---|
-| 🎮 | Tech Gamer | I debug like it's a quest |
-| 📚 | Lifelong Learner | Always exploring new tech |
-| ☕ | Coffee Enthusiast | Powered by caffeine & curiosity |
-| 🌍 | African Innovator | Building tech that solves real problems |
-| 🚀 | Dream Big | The next big thing starts with small commits |
-
-</div>
-
----
-
-<!-- 🤝 COLLABORATION SECTION -->
-<div align="center">
-
-## 🤝 **OPEN FOR COLLABORATION**
-
-*Let's create something extraordinary together!*
-
-🚀 **AI/ML Projects** | 📱 **Mobile Applications** | 🌍 **Tech for Social Good** | 💡 **Open Source Initiatives**
-
-<br/>
-
-💌 **DM me on [LinkedIn](https://www.linkedin.com/in/amanya-micheal-778a9234a) or email at amanyamicheal@gmail.com**
-
-</div>
-
----
-
-<!-- 🎯 SUPPORT SECTION -->
-<div align="center">
-
-## ☕ **SUPPORT MY WORK**
-
-*If you find my projects helpful, consider supporting me!*
-
-<a href="https://www.buymeacoffee.com/amanyamicheal">
-  <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee" />
-</a>
-<a href="https://ko-fi.com/amanyamicheal">
-  <img src="https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Ko-fi" />
-</a>
-
-</div>
-
----
-
-<!-- 📜 FOOTER WITH GRADIENT -->
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,50:764ba2,100:f093fb&height=150&section=footer&text=Thanks%20for%20Visiting!&fontSize=30&fontColor=fff&animation=fadeIn&fontAlignY=70" />
-
-**⭐ Star my repositories if you find them useful!**
-
-**💻 Happy Coding! | 🚀 Keep Building! | 🌍 Let's Change the World!**
-
-<img src="https://forthebadge.com/images/badges/built-with-love.svg" />
-<img src="https://forthebadge.com/images/badges/powered-by-coffee.svg" />
-
----
-
-*Last Updated: 2025 | Made with 💜 and ☕ by Amanya Micheal*
-
-</div>
+> Technology is not just about code; it is about creating solutions that matter.
