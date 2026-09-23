@@ -6,7 +6,7 @@
 
 I build practical technology for people, communities, and African markets.
 
-[Portfolio](https://michealamanya.github.io) · [GitHub](https://github.com/michealamanya) · [LinkedIn](https://linkedin.com/in/amanya-micheal-778a9234a) · [Email](mailto:amanyamicheal@gmail.com)
+[Portfolio](https://michealamanya.github.io) · [GitHub](https://github.com/michealamanya) · [LinkedIn](https://linkedin.com/in/amanya-micheal-778a9234a) · [Email](mailto:amanyamicheal770@gmail.com)
 
 ![Python](https://img.shields.io/badge/Python-173F35?style=flat-square&logo=python&logoColor=white)
 ![Flutter](https://img.shields.io/badge/Flutter-173F35?style=flat-square&logo=flutter&logoColor=white)

@@ -11,7 +11,7 @@ I'm always excited to work on innovative projects. Here's how we can collaborate
 
 ## 📬 How to Reach Me
 
-- **Email:** amanyamicheal@gmail.com
+- **Email:** amanyamicheal770@gmail.com
 - **LinkedIn:** [Amanya Micheal](https://linkedin.com/in/amanya-micheal-778a9234a)
 - **Twitter:** [@amanyamicheal_a](https://x.com/amanyamicheal_a)
 - **GitHub:** [michealamanya](https://github.com/michealamanya)

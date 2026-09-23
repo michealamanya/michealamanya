@@ -2,7 +2,7 @@
 
 👋 Welcome to my GitHub profile! I'm an AI Engineer and Mobile Developer passionate about creating technology solutions for Africa.
 
-📧 [Email](mailto:amanyamicheal@gmail.com) | 💼 [LinkedIn](https://linkedin.com/in/amanya-micheal-778a9234a) | 🐦 [Twitter](https://x.com/amanyamicheal_a)
+📧 [Email](mailto:amanyamicheal770@gmail.com) | 💼 [LinkedIn](https://linkedin.com/in/amanya-micheal-778a9234a) | 🐦 [Twitter](https://x.com/amanyamicheal_a)
 
 ## Quick Links
 
