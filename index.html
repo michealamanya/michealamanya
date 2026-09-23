@@ -3,73 +3,189 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Amanya Micheal | Portfolio Hub</title>
+    <meta name="theme-color" content="#f4f0e8" />
+    <title>Amanya Micheal | AI Engineer</title>
     <meta
       name="description"
-      content="Official GitHub Pages hub for Amanya Micheal: AI Engineer, Mobile Developer, and open-source collaborator."
+      content="Amanya Micheal is an AI engineer and mobile developer building practical technology for African markets."
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <style>
       :root {
-        color-scheme: dark;
-        --bg1: #0f172a;
-        --bg2: #1e1b4b;
-        --card: rgba(15, 23, 42, 0.72);
-        --text: #e2e8f0;
-        --accent: #a78bfa;
-        --accent2: #22d3ee;
+        --paper: #f4f0e8;
+        --ink: #17201d;
+        --muted: #68716c;
+        --line: #d8d6cb;
+        --green: #174d3b;
+        --lime: #c7e66a;
+        --orange: #ee714b;
+        --white: #fffdf7;
       }
       * { box-sizing: border-box; }
+      html { scroll-behavior: smooth; }
       body {
         margin: 0;
-        font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
-        color: var(--text);
-        background: radial-gradient(circle at 20% 20%, #312e81 0%, var(--bg1) 40%),
-          linear-gradient(120deg, var(--bg1), var(--bg2));
-        min-height: 100vh;
-        display: grid;
-        place-items: center;
-        padding: 2rem;
+        color: var(--ink);
+        background: var(--paper);
+        font-family: Manrope, sans-serif;
+        line-height: 1.6;
       }
-      .card {
-        width: min(760px, 100%);
-        background: var(--card);
-        backdrop-filter: blur(10px);
-        border: 1px solid rgba(167, 139, 250, 0.35);
-        border-radius: 1rem;
-        padding: 2rem;
-        box-shadow: 0 20px 40px rgba(2, 6, 23, 0.35);
+      a { color: inherit; }
+      .site-header, .section, .site-footer { width: min(1160px, calc(100% - 48px)); margin: 0 auto; }
+      .site-header { display: flex; justify-content: space-between; align-items: center; padding: 25px 0; }
+      .brand { font-family: "Space Grotesk", sans-serif; font-size: 1.05rem; font-weight: 700; letter-spacing: -0.03em; text-decoration: none; }
+      .brand span { color: var(--orange); }
+      nav { display: flex; gap: 28px; font-size: 0.82rem; font-weight: 700; }
+      nav a { text-decoration: none; }
+      nav a:hover, nav a:focus-visible { color: var(--orange); }
+      .hero { border-top: 1px solid var(--line); padding: 92px 0 112px; }
+      .eyebrow, .section-label { color: var(--orange); font: 500 0.72rem/1.2 "DM Mono", monospace; letter-spacing: 0.1em; text-transform: uppercase; }
+      .hero-grid { display: grid; grid-template-columns: 1.35fr 0.65fr; gap: 80px; align-items: end; }
+      h1, h2, h3 { font-family: "Space Grotesk", sans-serif; letter-spacing: -0.055em; line-height: 0.98; }
+      h1 { max-width: 780px; margin: 20px 0 27px; font-size: clamp(3.7rem, 8vw, 7.7rem); font-weight: 600; }
+      h1 em { color: var(--green); font-style: normal; }
+      .hero-copy { max-width: 470px; margin: 0; color: var(--muted); font-size: 1.08rem; }
+      .hero-note { border-left: 2px solid var(--orange); padding-left: 22px; color: var(--muted); font-size: 0.9rem; }
+      .hero-note strong { display: block; margin-bottom: 8px; color: var(--ink); font: 600 1.05rem/1.2 "Space Grotesk", sans-serif; }
+      .actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 34px; }
+      .button { display: inline-flex; align-items: center; gap: 10px; padding: 13px 18px; border: 1px solid var(--green); border-radius: 2px; font-size: 0.8rem; font-weight: 800; text-decoration: none; transition: transform 160ms ease, background 160ms ease; }
+      .button:hover, .button:focus-visible { transform: translateY(-3px); }
+      .button.primary { color: var(--white); background: var(--green); }
+      .button.secondary { color: var(--green); }
+      .section { padding: 85px 0; }
+      .section-heading { display: flex; justify-content: space-between; align-items: end; gap: 24px; margin-bottom: 34px; }
+      h2 { max-width: 620px; margin: 10px 0 0; font-size: clamp(2.2rem, 5vw, 4.2rem); font-weight: 600; }
+      .section-intro { max-width: 300px; margin: 0; color: var(--muted); font-size: 0.9rem; }
+      .work-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+      .project { min-height: 330px; display: flex; flex-direction: column; justify-content: space-between; padding: 27px; border: 1px solid var(--line); background: var(--white); transition: transform 180ms ease, box-shadow 180ms ease; }
+      .project:hover { transform: translateY(-5px); box-shadow: 8px 8px 0 var(--lime); }
+      .project-top { display: flex; justify-content: space-between; gap: 16px; color: var(--orange); font: 500 0.72rem "DM Mono", monospace; }
+      .project h3 { max-width: 390px; margin: 45px 0 12px; font-size: clamp(1.7rem, 3vw, 2.45rem); }
+      .project p { max-width: 420px; margin: 0; color: var(--muted); font-size: 0.92rem; }
+      .project-bottom { display: flex; justify-content: space-between; align-items: end; gap: 18px; margin-top: 28px; }
+      .tags { display: flex; flex-wrap: wrap; gap: 6px; }
+      .tag { padding: 4px 8px; color: var(--green); background: #e6efc4; font: 500 0.68rem "DM Mono", monospace; }
+      .project-link { color: var(--green); font-size: 0.8rem; font-weight: 800; text-decoration: none; white-space: nowrap; }
+      .project-link:hover { color: var(--orange); }
+      .about { display: grid; grid-template-columns: 0.7fr 1.3fr; gap: 90px; border-top: 1px solid var(--line); }
+      .about-copy { max-width: 650px; color: var(--muted); font-size: 1.05rem; }
+      .about-copy p:first-child { margin-top: 0; color: var(--ink); font-size: 1.35rem; line-height: 1.35; }
+      .focus-list { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0 24px; margin-top: 34px; border-top: 1px solid var(--line); }
+      .focus-list div { padding: 15px 0; border-bottom: 1px solid var(--line); font-weight: 700; }
+      .writing-list { display: grid; grid-template-columns: repeat(2, 1fr); border-top: 1px solid var(--line); }
+      .writing-list a { display: flex; justify-content: space-between; gap: 20px; padding: 17px 0; border-bottom: 1px solid var(--line); font-weight: 700; text-decoration: none; }
+      .writing-list a span { color: var(--orange); font: 500 0.72rem "DM Mono", monospace; white-space: nowrap; }
+      .writing-list a:hover { color: var(--green); }
+      .contact { width: min(1160px, calc(100% - 48px)); margin: 0 auto; padding: 60px 0 95px; border-top: 1px solid var(--line); }
+      .contact h2 { max-width: 700px; }
+      .contact-row { display: flex; justify-content: space-between; align-items: end; gap: 30px; }
+      .contact-row p { max-width: 360px; margin: 25px 0 0; color: var(--muted); }
+      .contact-links { display: flex; flex-wrap: wrap; gap: 18px; font: 600 0.82rem "DM Mono", monospace; }
+      .contact-links a { text-decoration: none; border-bottom: 1px solid var(--orange); }
+      .site-footer { display: flex; justify-content: space-between; padding: 20px 0 30px; border-top: 1px solid var(--line); color: var(--muted); font: 0.7rem "DM Mono", monospace; }
+      @media (max-width: 760px) {
+        .site-header, .section, .contact, .site-footer { width: min(100% - 32px, 560px); }
+        nav { gap: 14px; font-size: 0.72rem; }
+        nav a:nth-child(2) { display: none; }
+        .hero { padding: 65px 0 80px; }
+        .hero-grid, .about { grid-template-columns: 1fr; gap: 38px; }
+        h1 { font-size: clamp(3.3rem, 16vw, 5.5rem); }
+        .section { padding: 65px 0; }
+        .section-heading, .contact-row { display: block; }
+        .section-intro { margin-top: 20px; }
+        .work-grid { grid-template-columns: 1fr; }
+        .project { min-height: 290px; }
+        .about { gap: 20px; }
+        .writing-list { grid-template-columns: 1fr; }
+        .contact-links { margin-top: 30px; }
+        .site-footer { gap: 18px; flex-direction: column; }
       }
-      h1 { margin-top: 0; font-size: clamp(1.8rem, 4vw, 2.8rem); }
-      p { line-height: 1.6; }
-      .links {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 0.75rem;
-        margin-top: 1.25rem;
-      }
-      a {
-        text-decoration: none;
-        color: white;
-        padding: 0.65rem 0.95rem;
-        border-radius: 999px;
-        font-weight: 600;
-        background: linear-gradient(135deg, var(--accent), var(--accent2));
-      }
-      a.secondary { background: transparent; border: 1px solid rgba(34, 211, 238, 0.6); }
+      @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { transition-duration: 0.01ms !important; } }
     </style>
   </head>
   <body>
-    <main class="card">
-      <h1>Welcome to michealamanya.github.io</h1>
-      <p>
-        This site is now configured for GitHub Pages access. Explore my GitHub profile, featured projects,
-        and collaboration links below.
-      </p>
-      <div class="links">
-        <a href="https://github.com/michealamanya" target="_blank" rel="noreferrer">GitHub Profile</a>
-        <a class="secondary" href="./README_EN.md">Profile Overview</a>
-        <a class="secondary" href="./PROJECTS.md">Featured Projects</a>
-      </div>
+    <header class="site-header">
+      <a class="brand" href="./">AM<span>.</span></a>
+      <nav aria-label="Primary navigation">
+        <a href="#work">Selected work</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section" aria-labelledby="intro-title">
+        <div class="hero-grid">
+          <div>
+            <div class="eyebrow">AI engineer / mobile developer</div>
+            <h1 id="intro-title">Technology with a <em>human</em> use case.</h1>
+            <p class="hero-copy">I am Amanya Micheal, a developer building useful AI and mobile products for people, communities, and the markets around me.</p>
+            <div class="actions">
+              <a class="button primary" href="#work">Explore the work <span aria-hidden="true">-></span></a>
+              <a class="button secondary" href="https://github.com/michealamanya" target="_blank" rel="noreferrer">GitHub profile <span aria-hidden="true">&#8599;</span></a>
+            </div>
+          </div>
+          <aside class="hero-note">
+            <strong>Based in Uganda</strong>
+            Focused on deep learning, cross-platform applications, and technology that makes everyday systems work better.
+          </aside>
+        </div>
+      </section>
+
+      <section class="section" id="work" aria-labelledby="work-title">
+        <div class="section-heading">
+          <div><div class="section-label">01 / Selected work</div><h2 id="work-title">Projects built to leave the screen.</h2></div>
+          <p class="section-intro">A few practical experiments across agriculture, healthcare, language, and education.</p>
+        </div>
+        <div class="work-grid">
+          <article class="project">
+            <div><div class="project-top"><span>01</span><span>AGRICULTURE</span></div><h3>AgroConnect Mobile</h3><p>Market prices and AI-powered crop recommendations, designed to make better decisions more accessible to farmers.</p></div>
+            <div class="project-bottom"><div class="tags"><span class="tag">Flutter</span><span class="tag">Firebase</span><span class="tag">ML</span></div><a class="project-link" href="https://github.com/michealamanya/agroconnect" target="_blank" rel="noreferrer">View repo &#8599;</a></div>
+          </article>
+          <article class="project">
+            <div><div class="project-top"><span>02</span><span>HEALTHCARE</span></div><h3>Smart Hospital System</h3><p>A connected management system with patient analytics, monitoring, and AI-assisted diagnosis support.</p></div>
+            <div class="project-bottom"><div class="tags"><span class="tag">Django</span><span class="tag">TensorFlow</span><span class="tag">MySQL</span></div><a class="project-link" href="https://github.com/michealamanya/hospital-system" target="_blank" rel="noreferrer">View repo &#8599;</a></div>
+          </article>
+          <article class="project">
+            <div><div class="project-top"><span>03</span><span>WELLBEING</span></div><h3>Mental Health Chatbot</h3><p>An empathetic conversational companion exploring emotion detection, support, and privacy-first design.</p></div>
+            <div class="project-bottom"><div class="tags"><span class="tag">Python</span><span class="tag">NLP</span><span class="tag">Flask</span></div><a class="project-link" href="https://github.com/michealamanya/mental-health-bot" target="_blank" rel="noreferrer">View repo &#8599;</a></div>
+          </article>
+          <article class="project">
+            <div><div class="project-top"><span>04</span><span>EDUCATION</span></div><h3>Student Management Pro</h3><p>Grade tracking, automated scheduling, and a student-teacher portal for smoother campus operations.</p></div>
+            <div class="project-bottom"><div class="tags"><span class="tag">Java</span><span class="tag">MySQL</span><span class="tag">JavaFX</span></div><a class="project-link" href="https://github.com/michealamanya/student-management" target="_blank" rel="noreferrer">View repo &#8599;</a></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section about" id="about" aria-labelledby="about-title">
+        <div><div class="section-label">02 / The approach</div><h2 id="about-title">Curious first. Useful always.</h2></div>
+        <div class="about-copy">
+          <p>I care about the space where good engineering meets a real local context.</p>
+          <p>My work moves between machine learning, mobile development, and open source. I like taking an idea from a rough question to something people can actually try, measure, and improve.</p>
+          <div class="focus-list"><div>Deep learning</div><div>Mobile-first products</div><div>Tech for social good</div><div>Open collaboration</div></div>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="writing-title">
+        <div class="section-heading">
+          <div><div class="section-label">03 / Latest writing</div><h2 id="writing-title">Notes from the build.</h2></div>
+          <p class="section-intro">Ideas on AI, mobile development, and technology in African markets.</p>
+        </div>
+        <div class="writing-list">
+          <a href="https://medium.com/@amanyamicheal/building-ai-applications-african-markets" target="_blank" rel="noreferrer">Building AI Applications for African Markets <span>AI / ML &#8599;</span></a>
+          <a href="https://medium.com/@amanyamicheal/flutter-best-practices-production" target="_blank" rel="noreferrer">Flutter Best Practices for Production Apps <span>MOBILE &#8599;</span></a>
+          <a href="https://medium.com/@amanyamicheal/understanding-deep-learning-guide" target="_blank" rel="noreferrer">Understanding Deep Learning: A Practical Guide <span>AI / ML &#8599;</span></a>
+          <a href="https://medium.com/@amanyamicheal/tech-innovation-agriculture-journey" target="_blank" rel="noreferrer">Tech Innovation in Agriculture: My Journey <span>INNOVATION &#8599;</span></a>
+        </div>
+      </section>
+
+      <section class="contact" id="contact" aria-labelledby="contact-title">
+        <div class="contact-row"><div><div class="section-label">04 / Start a conversation</div><h2 id="contact-title">Have a useful problem to solve?</h2><p>Let us talk about an idea, a collaboration, or a project that could make a difference.</p></div><div class="contact-links"><a href="mailto:amanyamicheal@gmail.com">Email</a><a href="https://linkedin.com/in/amanya-micheal-778a9234a" target="_blank" rel="noreferrer">LinkedIn &#8599;</a><a href="https://x.com/amanyamicheal_a" target="_blank" rel="noreferrer">X &#8599;</a><a href="./COLLABORATORS.md">Collaboration notes</a></div></div>
+      </section>
     </main>
+
+    <footer class="site-footer"><span>Amanya Micheal / 2026</span><span>Built with curiosity and care.</span></footer>
   </body>
 </html>
