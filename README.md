@@ -1,10 +1,20 @@
+<div align="center">
+
 # Amanya Micheal
 
-## AI Engineer and Mobile Developer
+### AI Engineer · Mobile Developer · Open-Source Collaborator
 
-I build practical technology for people, communities, and African markets. My work combines machine learning, mobile development, and open-source collaboration.
+I build practical technology for people, communities, and African markets.
 
-[Portfolio](https://michealamanya.github.io) | [GitHub](https://github.com/michealamanya) | [LinkedIn](https://linkedin.com/in/amanya-micheal-778a9234a) | [Email](mailto:amanyamicheal@gmail.com)
+[Portfolio](https://michealamanya.github.io) · [GitHub](https://github.com/michealamanya) · [LinkedIn](https://linkedin.com/in/amanya-micheal-778a9234a) · [Email](mailto:amanyamicheal@gmail.com)
+
+![Python](https://img.shields.io/badge/Python-173F35?style=flat-square&logo=python&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-173F35?style=flat-square&logo=flutter&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-173F35?style=flat-square&logo=tensorflow&logoColor=white)
+![Django](https://img.shields.io/badge/Django-173F35?style=flat-square&logo=django&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-173F35?style=flat-square&logo=firebase&logoColor=white)
+
+</div>
 
 ## Focus
 
